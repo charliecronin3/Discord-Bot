@@ -5,7 +5,7 @@ const fs = require("fs"); /* File System!! */
 const enmap = require("enmap"); /* Include enmap - used for databases */
 
 Client.Commands = new Discord.Collection(); /* Commands Map */
-Client.Servers = new enmap({name: "Servers"}); /* Users Database - Store within class (Discord instance )so it can be passed around our command handler */
+Client.Servers = new enmap({name: "Servers"}); /* Users Database - Store within class (Discord instance) so it can be passed around our command handler */
 
 Client.DefaultSettings = {
     prefix: "."
