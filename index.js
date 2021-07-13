@@ -69,4 +69,4 @@ Client.on("guildCreate", (guild) => { /* Joined new Discord Serer */
     }
 });
 
-Client.login("ODY0NTA0MjI1NzkwODIwMzgy.YO2aTQ.P68xA6hs7jrshtOY20DDfvklfzI"); /* Token used to authorize */
+Client.login(""); /* Token used to authorize */
